@@ -6,7 +6,7 @@ interface AboutCTAProps {
     data: {
         heading: string;
         subheading: string;
-        ctas: Array<{
+        readonly ctas: ReadonlyArray<{
             text: string;
             link: string;
             style: 'primary' | 'secondary' | 'tertiary';

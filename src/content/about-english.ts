@@ -298,4 +298,4 @@ export const aboutCTA = {
             icon: "whatsapp"
         }
     ]
-};
+} as const;
